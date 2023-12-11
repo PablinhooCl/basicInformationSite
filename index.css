@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    width: 100svw;
+    height: 100svh;
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkgrey;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover {
+    color: blue; 
+  }
